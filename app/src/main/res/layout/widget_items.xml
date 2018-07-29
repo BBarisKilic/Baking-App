@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/widget_qty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="casual"
+        tools:text="@string/quantity"/>
+
+    <TextView
+        android:layout_width="5dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/widget_measure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:fontFamily="casual"
+        tools:text="@string/measure"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" x "
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/widget_ingredient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:fontFamily="casual"
+        android:textSize="15sp"
+        tools:text="@string/ingredient_name"/>
+</LinearLayout>

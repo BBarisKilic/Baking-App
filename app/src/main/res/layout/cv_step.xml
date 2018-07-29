@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/step_cv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        android:layout_margin="4dp"
+        android:elevation="3dp"
+        card_view:cardCornerRadius="4dp"
+        android:layout_gravity="center"
+        >
+            <TextView
+                android:id="@+id/step_shortDescription_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/robotolight"
+                android:background="@color/colorSecondaryDark"
+                android:textColor="@color/white"
+                tools:text="@string/short_description"/>
+
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>

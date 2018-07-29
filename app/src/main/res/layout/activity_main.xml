@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recipe_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondaryDark">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/recipeToolbar"
+        android:layout_width="match_parent"
+        android:elevation="4dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/AppToolbar" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recipes_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:background="@color/colorSecondaryLight"
+        android:layout_marginTop="?attr/actionBarSize"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/error_connection_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:textSize="34sp"
+        android:fontFamily="@font/leoscar_sans_serif"
+        android:gravity="center"
+        tools:text="@string/no_internet_connection"/>
+
+</FrameLayout>

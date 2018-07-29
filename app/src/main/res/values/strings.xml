@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BakingApp</string>
+    <string name="no_internet_connection">Check internet connection!</string>
+    <string name="placeholder_for_imageviews">Placeholder for ImageViews</string>
+    <string name="quantity">Quantity</string>
+    <string name="measure">Measure</string>
+    <string name="ingredient_name">Ingredient Name</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="restart">Restart</string>
+    <string name="appwidget_text">My Recipe</string>
+    <string name="add_widget">Add widget</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="serving_size">Serving Size</string>
+    <string name="short_description">Short Description</string>
+    <string name="description">Description</string>
+    <string name="current_pos">Current Position</string>
+    <string name="duration">Duration</string>
+    <string name="servings">servings</string>
+</resources>
