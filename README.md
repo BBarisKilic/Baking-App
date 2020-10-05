@@ -7,7 +7,7 @@ The app displays a set of recipes with ingredients. In addition, this app allow 
 ![ScreenShot](/images/Main_Screen.jpg)
 ### _Ingredient Screen_
 ![ScreenShot](/images/Ingredients.jpg)
-### _Exo Payer_
+### _Exo Player_
 ![ScreenShot](/images/Exo_Player.jpg)
 ### _Widget_
 ![ScreenShot](/images/Widget.jpg)
